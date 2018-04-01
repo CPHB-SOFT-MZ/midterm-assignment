@@ -20,8 +20,8 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class RecognitionAllIT {
 
-    public String snapshot;
-    public String expectedPlate;
+    private String snapshot;
+    private String expectedPlate;
 
     public RecognitionAllIT(String ss, String ep){
         this.snapshot = ss;
