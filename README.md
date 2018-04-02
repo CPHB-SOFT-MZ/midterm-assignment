@@ -31,6 +31,8 @@ In this case, I didn't find it necessary to make my own matcher, so here it didn
 a difference. 
 
 ## Project 2 - Unit Testing, Testable Code, Mocking and Code Coverage
+The code for this project can be found [here](https://github.com/ziemerz/joke-fetcher)
+
 To make this code testable we implemented the pattern inversion of control by using
 dependency injection. Further, we implemented a factory to have a way to get an instance
 of the implementations of the `IJokeFetcher`. This gives us a lower coupling and a higher
@@ -52,7 +54,7 @@ Jacoco is just a framework for generating code coverage reports.
 To mock away external dependencies with Mockito we simply used the `@Mock` annotation.
 
 We did state based testing to test that we actually got a joke back. You can see an example
-in the method `getJokesTest` in [JokeFetcherTest.java](). 
+in the method `getJokesTest` in [JokeFetcherTest.java](https://github.com/ziemerz/joke-fetcher/blob/master/src/main/java/testex/JokeFetcher.java). 
 In the same test, you can also see how we did behaviour based testing. The `assert` matchers
 are used for state testing and `verify` is used for behaviour based testing.
 
