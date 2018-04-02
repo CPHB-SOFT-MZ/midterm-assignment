@@ -3,13 +3,13 @@ This is the complete midterm assignment. Each section will contain a link to all
 and/or repositories. 
 
 ## Project 1 - Testing Real Life Code
-The code for the Testing Real Life Code can be found [here](../blob/master/RecognitionAllIT.java)
+The code for the Testing Real Life Code can be found [here](../master/RecognitionAllIT.java)
 
 The purpose of the original test is to expose the accuracy of the number plate recognition.
 The only actual requirement for the test to pass is that it correctly reads the image and that 
 it recognizes 53 out of 97 number plates.
 
-The purpose of rewriting our test into what we have in [RecognitionAllIT](../blob/master/RecognitionAllIT.java)
+The purpose of rewriting our test into what we have in [RecognitionAllIT](../master/RecognitionAllIT.java)
 is to expose what images the program fails to recognize.
 
 Parameterized tests in JUnit is a way to run a test one or multiple times given a certain dataset.
@@ -37,7 +37,7 @@ of the implementations of the `IJokeFetcher`. This gives us a lower coupling and
 cohesion as well.
 
 The test results can be seen on the image below.
-![Test results](../blob/master/test-cases.png)
+![Test results](../master/test-cases.png)
 
 
 
