@@ -1,5 +1,5 @@
 # Midterm assignment
-This is the complete midterm assign. Each section will contain a link to all relevant files 
+This is the complete midterm assignment. Each section will contain a link to all relevant files 
 and/or repositories. 
 
 ## Project 1 - Testing Real Life Code
@@ -30,7 +30,7 @@ Hamcrest matchers can be smart, since they provide you with the option to make y
 In this case, I didn't find it necessary to make my own matcher, so here it didn't really make
 a difference. 
 
-## Project 2 - Unit Testing, Testable Code, Mocking & Code Coverage
+## Project 2 - Unit Testing, Testable Code, Mocking and Code Coverage
 
 
 ## Project 3 - Monopoly
