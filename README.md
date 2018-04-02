@@ -39,6 +39,29 @@ cohesion as well.
 The test results can be seen on the image below.
 ![Test results](../master/test-cases.png)
 
+JUnit is a Java framework for doing unit testing. It comes with a lot of matchers
+and annotations. Hamcrest is a framework like JUnit but with a more expressive style
+and with the possibility to implement your own matchers.
+
+Mockito is a mocking framework. This means that you can substitute dependencies with mock
+objects. This gives us the power to tell how dependencies should behave. That also means we
+easily can do behaviour driven testing.
+
+Jacoco is just a framework for generating code coverage reports.
+
+To mock away external dependencies with Mockito we simply used the `@Mock` annotation.
+
+We did state based testing to test that we actually got a joke back. You can see an example
+in the method `getJokesTest` in [JokeFetcherTest.java](). 
+In the same test, you can also see how we did behaviour based testing. The `assert` matchers
+are used for state testing and `verify` is used for behaviour based testing.
+
+I couldn't get Jacoco to provide accurate results when testing the `DateFormatter`.
+I think it's because the tests are in JUnit5, and I'm not sure Jacoco supports this.
+Anyway, the report looks like this ![Jacoco coverage](../master/jacoco.png)
+The rule of thumb for code coverage is 80%. The coverage of `JokeFetcher` and `Jokes` 
+is pretty good. IntelliJ also reports 100% coverage of `DateFormatter`, as you can see below.
+![IntelliJ coverage](../master/intellij-coverage.png)
 
 
 
