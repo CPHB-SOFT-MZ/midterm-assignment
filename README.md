@@ -1,6 +1,9 @@
 # Midterm assignment
 This is the complete midterm assignment. Each section will contain a link to all relevant files 
-and/or repositories. 
+and/or repositories.
+
+It's important to note that all code was made together as a group. The group consisted of
+Florent Haxha, Kasper Vetter, Phillip Brink and myself.
 
 ## Project 1 - Testing Real Life Code
 The code for the Testing Real Life Code can be found [here](../master/RecognitionAllIT.java)
