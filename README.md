@@ -31,6 +31,15 @@ In this case, I didn't find it necessary to make my own matcher, so here it didn
 a difference. 
 
 ## Project 2 - Unit Testing, Testable Code, Mocking and Code Coverage
+To make this code testable we implemented the pattern inversion of control by using
+dependency injection. Further, we implemented a factory to have a way to get an instance
+of the implementations of the `IJokeFetcher`. This gives us a lower coupling and a higher
+cohesion as well.
+
+The test results can be seen on the image below.
+![Test results](../blob/master/test-cases.png)
+
+
 
 
 ## Project 3 - Monopoly
